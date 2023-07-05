@@ -2,7 +2,7 @@
 
 const char* ssid = "ESP32-AP"; //Define o nome do ponto de acesso
 const char* pass = "12345678"; //Define a senha
-WiFiServer sv(80); //Cria um servidor na porta 80
+WiFiServer server(80); //Cria um servidor na porta 80
 
 const byte ledPin = 2; //Define o pino do Led
 
